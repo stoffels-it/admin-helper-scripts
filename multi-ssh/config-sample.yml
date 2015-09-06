@@ -1,0 +1,16 @@
+# copy this to config.yml with your credentials
+global:
+    user: testuser
+    pw: testpassword 
+    encryption: blowfish-cbc
+    keys: ~/.ssh/id_rsa.pub
+    compression: zlib
+    sudoreq: yes
+hosts:
+	# use your server's host names or short names from your ~/.ssh/config
+    server1.mydomain.tld:
+    server2.mydomain.tld:
+    server3.mydomain.tld:
+    	user: root # just for demo purposes
+    	pw: testpassword3
+    	sudoreq: no
