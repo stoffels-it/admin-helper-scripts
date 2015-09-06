@@ -21,7 +21,7 @@ config['hosts'].each do |host,details|
         compression = ((details['compression'] if details) or config['global']['compression'])
     rescue
         puts "login data not available in config file."
-        exit
+        next
     end
 
     begin
