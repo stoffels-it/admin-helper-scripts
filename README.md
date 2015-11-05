@@ -6,3 +6,4 @@
 
 ## log_ping_failures
 * Log the internet accessibility over a longer period via ping every 5 seconds.
+* Requires the net-ping gem (execute gem install net-ping)
